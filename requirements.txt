@@ -1,0 +1,13 @@
+gym==0.18.0
+matplotlib==3.3.3
+pybullet==3.0.8
+stable-baselines3==0.10.0
+h5py==3.1.0
+atari_py==0.2.6
+opencv-python==4.5.1.48
+tensorboardX==2.1
+mujoco_py==2.0.2.13
+torch==1.7.1
+gym-retro==0.8.0
+numpy==1.20.3
+protobuf==3.20
