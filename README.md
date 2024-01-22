@@ -1,14 +1,49 @@
 # LBS - Curiosity-Driven Exploration via Latent Bayesian Surprise
 
+[[website](https://lbsexploration.github.io/)] [[paper](https://arxiv.org/abs/2104.07495)]
+
 This repository is the official implementation of Curiosity-Driven Exploration via Latent Bayesian Surprise.
 
-## Dependencies
+<p align="center">
+    <img src='_cover.gif' width=90%>
+</p>
 
-To install dependencies, please run:
+
+If you find the code useful, please refer to our work using:
+
+```
+@article{Mazzaglia2022LBS, 
+    title={Curiosity-Driven Exploration via Latent Bayesian Surprise}, 
+    volume={36}, 
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/20743}, 
+    DOI={10.1609/aaai.v36i7.20743},  
+    number={7}, 
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+    author={Mazzaglia, Pietro and Catal, Ozan and Verbelen, Tim and Dhoedt, Bart}, 
+    year={2022}, 
+    month={Jun.}, 
+    pages={7752-7760} 
+}
+```
+
+## Installation
+
+### [RECOMMENDED] Conda env
+
+ Create and activate a conda environment running:
+
+```[bash]
+conda create -n lbs python=3.8`
+conda activate lbs
+```
+
+### Dependencies
+
+To install dependencies, run:
 
 `pip install -r requirements.txt`
 
-## Train Code
+## Training Code
 
 In order to run experiments you can use the following:
 
